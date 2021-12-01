@@ -1,4 +1,21 @@
+* {
+  font-family: monospace;
+}
+
 #search {
   border: none;
   border-bottom: 2px solid cadetblue;
+}
+
+input[type=text]:focus {
+  border: none;
+  outline: none;
+}
+
+input[type=submit] {
+  border: none;
+  background-color: cadetblue;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
 }
